@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Libertinus+Math&display=swap');
+*{
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+html {
+  font-size: calc(10px + 0.5vw);
+}
+body{
+    /* background-image: url('artwork4.jpeg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal; */
+    background-color: rgb(3, 3, 47);
+}
+.nav{
+  height: 100px;
+  width: 100%;
+  background-color: rgb(3, 3, 47);
+}
+h2{
+ font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.nav1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.nav-child1{
+    padding: 10px  35px;
+    margin: 20px;
+}
+.b1{
+    padding: 10px 35px;
+    color: white;
+    background-color: rgb(3, 3, 81);
+    border: outset; 
+    border-color: gray ;
+    cursor: pointer;
+}
+.b1:hover{
+    border: inset;
+}
+.nav-child2{
+   
+    padding: 10px 35px;
+    margin: 20px;
+}
+.b2{
+    padding: 10px 35px;
+    color: white;
+    background-color:    rgb(3, 3, 81);
+    border: outset; 
+    border-color: gray;
+    cursor: pointer;
+}
+.b2:hover{
+    border: inset;
+}
+.nav-child3{
+    
+    padding: 10px 35px;
+    margin: 20px;
+}
+.b3{
+    padding: 10px 35px;
+    color: white;
+    background-color:  rgb(3, 3, 81);
+    border: outset; 
+    border-color: gray;
+    cursor: pointer;
+}
+.b3:hover{
+    border: inset;
+}
+.nav-child4{
+    padding: 10px 35px;
+    margin: 20px;
+}
+.b4{
+    padding: 10px 35px;
+    color: white;
+    background-color:   rgb(3, 3, 81);
+    border: outset; 
+    border-color: gray;
+    cursor: pointer;
+}
+.b4:hover{
+    border: inset;
+    
+}
+.emoji{
+        margin-top: 10px;
+        font-size: 40px;
+}
+img{
+    border: solid 1px white;
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+.name2{
+    
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 13px;
+}
+.para{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:800px){
+    body,.nav,.b1,.b2,.b3,.b4{
+        background-color: purple;
+    }
+}
+.img1{
+    
+    display: flex;
+    justify-content: center;
+    margin-top:100px ;
+}
+.bounce-on-load{
+    animation: bounce 2s ease-in-out alternate;
+    
+}
+
+ @keyframes bounce {
+      0%   { transform: translateY(0); }
+      30%  { transform: translateY(-100px); }
+      50%  { transform: translateY(0); }
+      70%  { transform: translateY(-50px); }
+      100% { transform: translateY(0); }
+    }
+  
